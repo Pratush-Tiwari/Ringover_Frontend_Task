@@ -206,8 +206,8 @@ const Allstore = () => {
                   <div>
                     <input
                       type="checkbox"
-                      value="green"
-                      checked={cselected === "green"}
+                      value="white"
+                      checked={cselected === "white"}
                       onChange={colorchange}
                     />
                   </div>
@@ -215,8 +215,8 @@ const Allstore = () => {
                   <div>
                     <input
                       type="checkbox"
-                      value="gold"
-                      checked={cselected === "gold"}
+                      value="black"
+                      checked={cselected === "black"}
                       onChange={colorchange}
                     />
                   </div>
